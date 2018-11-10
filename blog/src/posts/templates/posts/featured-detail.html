@@ -1,0 +1,6 @@
+<h1>Item name :{{ object.title }}</h1>
+<h2>Description :{{ object.description }}</h2>
+{% if object.image %}
+	<img src="{{ object.image.url }}" class="img-fluid"/>
+	<img src="{{ object.image2.url }}" class="img-fluid"/>
+{% endif %}

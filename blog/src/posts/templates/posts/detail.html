@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class ='text-center'>
+		<p>{{ title }}</p>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col">
+			{% if object.image %}
+				<img src="{{ object.image.url }}" class="img-fluid"/>
+				<img src="{{ object.image2.url }}" class="img-fluid"/>
+			{% endif %}
+			<h1>{{ object.title }}</h1>
+			<p>{{ object.timestamp|timesince }} ago</p>
+			<p>{{ object.description|linebreaks }}</p>
+			<p>Written by:</p>
+			<h3>{{ object.author }}</h3>
+		</div>
+	</div>
+</div>
+{% endblock %}

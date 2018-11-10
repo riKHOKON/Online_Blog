@@ -1,0 +1,129 @@
+	{% load static %}
+	<html lang="en">
+	  <head>
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	    <title>About Page</title>
+	    <style>
+	    	body,
+				html {
+					height: 100%;
+					margin: 0;
+					padding: 0;
+					font-family: 'Helvetica', sans-serif;
+					background: rgb(26, 188, 156);
+					background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+					background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+					background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+					}
+
+				h1 {
+					font-size: 24px;
+					margin: 10px 0 0 0;
+					font-weight: lighter;
+					text-transform: uppercase;
+					color: #eeeeee;
+				}
+
+				p {
+					font-size: 12px;
+					font-weight: light;
+					color: #333333;
+				}
+
+				span a {
+					font-size: 18px;
+					color: #cccccc;
+					text-decoration: none;
+					margin: 0 10px;
+					transition: all 0.4s ease-in-out;
+					/* &:hover {
+						color: #ffffff;
+					} */
+				}
+
+				@keyframes float {
+					0% {
+						box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+						transform: translatey(0px);
+					}
+					50% {
+						box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+						transform: translatey(-20px);
+					}
+					100% {
+						box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+						transform: translatey(0px);
+					}
+				}
+
+				.container {
+					width: 100%;
+					height: 100%;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+				}
+
+				.avatar {
+					width: 150px;
+					height: 150px;
+					box-sizing: border-box;
+					border: 5px white solid;
+					border-radius: 50%;
+					overflow: hidden;
+					box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+					transform: translatey(0px);
+					animation: float 6s ease-in-out infinite;
+					/* img { width: 100%; height: auto; } */
+				}
+
+				.content {
+					width: 100%;
+					max-width: 600px;
+					padding: 20px 40px;
+					box-sizing: border-box;
+					text-align: center;
+				}
+	    </style>
+	  </head>
+	  <body>
+	  	<div class ='text-center'>
+	  		<p>{{ title }}</p>
+	    	<h1>Hello, world! I am working on something!</h1>
+	    </div>
+	    <div class="container">
+	    	<div class="row">
+	    		<!-- <div class="col">
+	    			<p>{{ content }}</p>
+	    		</div> -->
+	    		<div class="avatar">
+					<a href="profile.html">
+						<img src="{% static 'img/RI.jpg' %}"/>
+					</a>
+				</div>
+				<div>
+					<h1>Rashedul Islam</h1>
+					<h3>Software Developer.</h3>
+	    			<p>Address Line: Houser no: A/2,3rd Floor,<br>Zakir Hossain Road, Mohammadpur, Dhaka 1207.<br>Contact No: +8807138542858</p>
+	    		</div>
+		</div>
+		<a class="nav-link" href="{% url 'home' %}">Back to home <span class="sr-only">(current)</span></a>
+	    <!-- Optional JavaScript -->
+	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	  </body>
+	  <footer>
+	  	<div>
+	  		<!-- <h4>All rights reserved by rIslam</h4> -->
+	  	</div>
+	  </footer>
+	</html>
+	

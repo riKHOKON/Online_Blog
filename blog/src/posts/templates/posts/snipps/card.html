@@ -1,0 +1,14 @@
+<div class="card" style="width: 18rem;">
+  {% if ins.image %}
+    <a href="{{ ins.get_absolute_url }}">
+      <img class="card-img-top" src="{{ ins.image.url }}" alt="{{ ins.title }} logo">
+    </a>
+  {% endif %}
+  <div class="card-body">
+    <h5 class="card-title">{{  ins.title }}</h5>
+    <p>{{ ins.timestamp|timesince }} ago</p>
+    <p class="card-text">{{ ins.description|truncatewords:14  }}</p>
+    <a href="{{ ins.get_absolute_url }}" class="btn btn-primary">View</a>
+    <!-- <a href="{% url 'posts:detail' slug=ins.slug %}" class="btn btn-warning">URL Shortcut</a> -->
+  </div>
+</div>

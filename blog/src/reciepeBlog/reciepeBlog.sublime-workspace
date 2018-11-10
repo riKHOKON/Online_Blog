@@ -1,0 +1,378 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Pr",
+				"ProductCardView"
+			],
+			[
+				"prod",
+				"product_card_view"
+			],
+			[
+				"Deta",
+				"DetailView"
+			],
+			[
+				"get",
+				"get_queryset"
+			],
+			[
+				"produc",
+				"products"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"htt",
+				"Http404"
+			],
+			[
+				"Produ",
+				"ProductManager"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"fi",
+				"final_filename"
+			],
+			[
+				"P",
+				"ProductListView"
+			],
+			[
+				"pro",
+				"product_list_view"
+			],
+			[
+				"pr",
+				"products"
+			],
+			[
+				"product",
+				"ProductListView"
+			],
+			[
+				"u",
+				"url"
+			],
+			[
+				"va",
+				"ValidationError"
+			],
+			[
+				"clea",
+				"cleaned_data"
+			],
+			[
+				"cle",
+				"clean"
+			],
+			[
+				"new",
+				"new_user"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"is",
+				"is_valid"
+			],
+			[
+				"reg",
+				"register_form"
+			],
+			[
+				"regi",
+				"register_page"
+			],
+			[
+				"Re",
+				"RegisterForm"
+			],
+			[
+				"c",
+				"cleaned_data"
+			],
+			[
+				"log",
+				"login"
+			],
+			[
+				"auth",
+				"authenticate"
+			],
+			[
+				"form",
+				"login_form"
+			],
+			[
+				"Log",
+				"LoginForm"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"Lo",
+				"LoginForm"
+			],
+			[
+				"contac",
+				"contact_form"
+			],
+			[
+				"cont",
+				"contact_form"
+			],
+			[
+				"Con",
+				"ContactForm"
+			],
+			[
+				"for",
+				"forms"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"REQ",
+				"request"
+			],
+			[
+				"html",
+				"html_"
+			],
+			[
+				"home",
+				"home_page"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/rIslam/Desktop/django_projects/blog/src/reciepeBlog/urls.py",
+		"/C/Users/rIslam/Desktop/django_projects/blog/src/templates/base/footer.html",
+		"/C/Users/rIslam/Desktop/django_projects/blog/src/templates/base/css.html",
+		"/C/Users/rIslam/Desktop/django_projects/blog/src/templates/base/js.html",
+		"/C/Users/rIslam/Desktop/django_projects/blog/src/templates/home.html",
+		"/C/Users/rIslam/Desktop/django_projects/blog/src/templates/base/navbar.html",
+		"/C/Users/rIslam/Desktop/django_projects/blog/src/templates/about.html",
+		"/C/Users/rIslam/Desktop/django_projects/blog/src/posts/templates/posts/detail.html",
+		"/C/Users/rIslam/Desktop/django_projects/blog/src/posts/templates/posts/list.html",
+		"/C/Users/rIslam/Desktop/django_projects/blog/src/posts/templates/posts/snipps/card.html",
+		"/C/Users/rIslam/Desktop/django_projects/blog/src/templates/base.html",
+		"/C/Users/rIslam/Desktop/django_projects/blog/src/reciepeBlog/settings.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/products/models.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/eCommerce/views.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/eCommerce/urls.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/products/templates/products/featured-detail.html",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/products/views.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/products/templates/products/detail.html",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/eCommerce/forms.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/eCommerce/settings.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/eCommerce/wsgi.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/products/templetes/products/list.html",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/eCommerce/__init__.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/templates/about.html",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/products/admin.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/products/migrations/0002_product_price.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/products/migrations/0001_initial.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/static_my_project/css/main.css",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplication/src/templates/auth/login.html",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplicationDjango/src/eCommerce/wsgi.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplicationDjango/src/eCommerce/views.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplicationDjango/src/eCommerce/settings.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplicationDjango/src/eCommerce/forms.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerceWebApplicationDjango/src/eCommerce/__init__.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerce/src/templates/auth/login.html",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerce/src/templates/contact/view.html",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerce/src/templates/about.html",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerce/src/eCommerce/urls.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerce/src/eCommerce/views.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerce/src/templates/home.html",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerce/src/eCommerce/wsgi.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerce/src/eCommerce/forms.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerce/src/templates/auth/register.html",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerce/src/eCommerce/settings.py",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerce/src/templates/login.html",
+		"/C/Users/rIslam/Desktop/django_projects/eCommerce/src/templates/contact.html",
+		"/C/Users/rIslam/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/rIslam/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/rIslam/AppData/Roaming/Sublime Text 3/Packages/User/Plain text.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "reciepeBlog.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 336.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

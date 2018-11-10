@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class ='text-center'>
+	<p>{{ title }}</p>
+	<h1>Hello, world! Now I am working on this Reciepe Blog</h1>
+	<h2 class="w3-center">Dummy Slideshow</h2>
+
+	<div class="w3-content w3-display-container">
+	  <img class="mySlides" src="{% static 'img/1.jpeg' %}" style="width:100%">
+	  <img class="mySlides" src="{% static 'img/2.jpg' %}" style="width:100%">
+	  <img class="mySlides" src="{% static 'img/3.jpg' %}" style="width:100%">
+	  <img class="mySlides" src="{% static 'img/4.jpg' %}" style="width:100%">
+
+	  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+	  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+	</div>
+</div>
+{% endblock %}
